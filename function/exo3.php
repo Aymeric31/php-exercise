@@ -6,15 +6,13 @@
 </head>
 <body>
 	<?php 
-	function renvoieTextOuAutre($x, $y){
+	function renvoie($x, $y){
 
-		echo "j'aime le ".$x.' et '.$y;
+		return $x . $y;
 
 	}
 
-	renvoieTextOuAutre("nutella", "l'orangina");
-	echo '<br>';
-	renvoieTextOuAutre("tennis", "les voitures")
+	renvoie("C'est ", " une stringe ");
 
 	?>
 </body>

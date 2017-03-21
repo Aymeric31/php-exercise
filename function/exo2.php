@@ -10,7 +10,7 @@
 
 	function renvoie($stringe){
 
-		echo $stringe;
+		return $stringe;
 
 	}
 	renvoie("Bjour");
