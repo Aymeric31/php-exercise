@@ -12,8 +12,8 @@
 
 	}
 
-	echo renvoie("C'est ", " une stringe ");
-
+	echo renvoie(20, " ans ");
+	
 	?>
 </body>
 </html>

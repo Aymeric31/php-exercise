@@ -13,7 +13,7 @@
 		return $stringe;
 
 	}
-	renvoie("Bjour");
+	echo renvoie("Bjour");
 
 	?>
 </body>
