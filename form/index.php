@@ -12,7 +12,7 @@
 		<p>Nom:
 			<input type="text" name="nom">
 		</p>
-
+		<button type="submit">Submit</button>
 	</form>
 </body>
 </html>
