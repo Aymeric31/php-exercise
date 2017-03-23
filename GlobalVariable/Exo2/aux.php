@@ -6,15 +6,12 @@
 </head>
 <body>
 	<?php 
-
 	session_start();
-	$_SESSION["prenom"] = "Jeanluc";
-	$_SESSION["nom"] = "Perno";
-	$_SESSION["age"] = 40;
 
-	echo '<br /><a href="aux.php">page 2</a>';
+	echo $_SESSION["prenom"];
+	echo $_SESSION["nom"];
+	echo $_SESSION["age"];
 
 	?>
-
 </body>
 </html>
