@@ -5,7 +5,7 @@
 	<title>Document</title>
 </head>
 <body>
-	<form action="user.php" method="post">
+	<form action="user.php" method="get">
 		<p>Prenom:
 			<input type="text" name="prenom">
 		</p>
@@ -14,6 +14,9 @@
 		</p>
 		<button type="submit" value="OK">Submit</button>
 	</form>
-	Bonjour, <?php echo htmlspecialchars ($_POST["prenom"]) ($_POST["nom"]); ?> 
+	<?php
+	echo $_GET["prenom"]; 
+	echo $_GET["nom"]; 
+	?> 
 </body>
 </html>
