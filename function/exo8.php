@@ -7,11 +7,8 @@
 <body>
 
 	<?php 
-	$nb1 =2;
-	$nb2 =7;
-	$nb3 =23;
 
-	function nombre($nb1, $nb2 , $nb3){
+	function nombre($nb1 = 2, $nb2 = 7 , $nb3 = 23){
 		echo $nb1 + $nb2 + $nb3;
 	}
 	nombre($nb1, $nb2, $nb3);
